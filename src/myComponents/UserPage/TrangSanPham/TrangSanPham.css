@@ -1,0 +1,72 @@
+.trangSanPham {
+  width: 100vw;
+}
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.product-image{
+  text-align: center;
+  display: flex;
+  width: 18%; /* Chiều rộng mỗi block, điều chỉnh cho phù hợp */
+  margin: 1%; /* Khoảng cách giữa các block */
+}
+.product-image img {
+  margin-left: 5%;
+}
+.product-details {
+  margin-top: 20px;
+}
+.product-details h2 {
+  margin: 0;
+}
+.price {
+  font-size: 24px;
+  color: #d9534f;
+  margin: 10px 0;
+}
+.description {
+  margin: 20px 0;
+}
+.add-to-cart {
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reviews {
+  margin-top: 30px;
+}
+.review {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #007bff;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.productdetail {
+
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các block xuống dòng */
+  justify-content: center; /* Căn chỉnh các block về bên trái */
+}

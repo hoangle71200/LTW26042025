@@ -1,0 +1,116 @@
+.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+
+.login-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-image: url('../../../assets/image/login-img.png');
+}
+
+.login-form--container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 509px;
+  height: 394px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #D3D8DE;
+  box-shadow: 0px 4px 12px 0px #00000026;
+}
+
+.login-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.login-opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #000000f5;
+  opacity: 0.35;
+}
+
+.login-label {
+  text-align: center;
+}
+
+.login-greeting {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.login-label {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.login-form {
+  position: relative;
+  width: 430px;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input--user {
+  height: 40px;
+}
+
+
+.login-btn--wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.btn-login {
+  background-color: #FFC20E !important;
+  border: none !important;
+  color: #464646 !important;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.show-icon {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.password-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+.text-danger {
+  color: red;
+}

@@ -1,0 +1,6 @@
+input[type="checkbox"] {
+  width: 20px;  /* Kích thước chiều rộng */
+  height: 20px; /* Kích thước chiều cao */
+  transform: scale(0.85); /* Tăng kích thước bằng cách sử dụng scale */
+  margin: 10px; /* Khoảng cách xung quanh checkbox */
+}

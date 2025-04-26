@@ -1,0 +1,7 @@
+const sp1 = new Product(1, "coca", 10000, 1, "nước uống tăng lực màu đen ", "src/image/hi3BG/All.jpg");
+  const sp2 = new Product(2, "fanta cam", 10000, 1, "nước uống tăng lực vị cam", "src/image/hi3BG/All.jpg");
+  const sp3 = new Product(3, "fanta dâu", 10000, 1, "nước uống tăng lực vị dâu", "src/image/hi3BG/All.jpg");
+  const sp4 = new Product(4, "fanta việt quất", 10000, 1, "nước uống tăng lực vị việt quất", "src/image/hi3BG/All.jpg");
+  const sp5 = new Product(5, "fanta xá xị", 10000, 1, "nước uống tăng lực vị xá xị - khuyến nghị mua thử 1 lần", "src/image/hi3BG/All.jpg");
+  const sp6 = new Product(6, "sprite", 10000, 1, "nước uống tăng lực màu trắng", "src/image/hi3BG/All.jpg");
+  const list = [sp1, sp2, sp3, sp4, sp5, sp6];

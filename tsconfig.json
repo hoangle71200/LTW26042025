@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+//    "moduleResolution": "nodenext",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true
+  }
+}
